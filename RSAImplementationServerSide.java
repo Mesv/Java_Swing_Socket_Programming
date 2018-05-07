@@ -89,9 +89,10 @@ public class RSAImplementationServerSide
                     f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                    
                     f.setVisible(true);   
                     
-                    String tmp = toURL(decrypted_message.trim());
+                    //String tmp = toURL(decrypted_message.trim());
+                    String tmp = decrypted_message.trim();
 
-                    if (tmp == null) {
+                    /*if (tmp == null) {
                         tmp = toURL("http://" + decrypted_message.trim());
                     }
                     
