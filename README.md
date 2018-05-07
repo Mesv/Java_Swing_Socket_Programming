@@ -10,7 +10,7 @@ You must run Server Application firstly. To run it, if you use Windows OS, go to
 
 java -jar RSAImplementationServerSide port_number
 
-After you run Client Application, you can run Client Application. To run it, 
+After you run Server Application, you can run Client Application. To run it, 
 
 java -jar RSAImplementationClientSide ip_address_of_the_machine_where_server_application_is port_number
 
